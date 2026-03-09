@@ -1,0 +1,146 @@
+Data Analytics Project on Retail Price Competition
+Project Title
+
+“Price Competition Analysis of Power Drills Across Major E-Commerce Retailers”
+
+(Alternative titles)
+
+Retail Pricing Strategy Analysis in Digital Markets
+
+Competitive Pricing Analysis of Amazon, Walmart, Home Depot & Lowe’s
+
+Impact of Ads, Shipping and Inventory on Product Ranking
+
+
+Project Objective
+
+The objective of this project is to analyze pricing strategies and competitive behavior among major retailers (Amazon, Walmart, Home Depot, Lowe’s) selling power drills.
+
+The project aims to understand:
+
+How pricing differs across retailers
+
+Whether ads influence product ranking
+
+Impact of shipping price and delivery time on product sales rank
+
+How inventory availability affects pricing
+
+Identify which retailer is most competitive
+
+
+Dataset Features (Important Columns)
+Feature	Description
+price	Product price
+sale	Whether product is on promotion
+shipping_price	Shipping cost
+shipping_time	Delivery time
+rank	Product rank in search results
+ads	Sponsored ad or not
+inventory	Quantity available
+in_stock	Product availability
+weight	Product size proxy
+date	Scraping date
+
+
+Key Analysis Questions
+1️⃣ Price Comparison
+
+Which retailer offers the lowest average price?
+
+Price distribution across retailers.
+
+2️⃣ Sales Promotion Impact
+
+Does sale promotion reduce price significantly?
+
+Does sale increase product ranking?
+
+3️⃣ Ads vs Ranking
+
+Do sponsored ads improve ranking?
+
+Average rank of advertised vs non-advertised products.
+
+4️⃣ Shipping Analysis
+
+Which retailer offers fastest shipping?
+
+Does high shipping cost reduce ranking?
+
+5️⃣ Inventory Analysis
+
+Does low inventory increase price?
+
+Stock availability comparison across retailers.
+
+6️⃣ Time Trend Analysis
+
+Price changes from January 2020 to June 2020
+
+
+Visualizations (Important for Portfolio)
+
+You can create:
+
+📈 Price Comparison
+
+Bar Chart → Average price per retailer
+
+📊 Sales vs No Sales
+
+Boxplot → Price difference
+
+📉 Shipping vs Rank
+
+Scatter Plot
+
+📦 Inventory vs Price
+
+Heatmap or correlation matrix
+
+📅 Price Trend Over Time
+
+Line Chart
+
+📢 Ads Impact
+
+Bar Chart → Avg rank (ads vs non ads)
+
+
+
+Tools You Should Use
+
+Since you already worked with SQL + Python in your Walmart project, use the same stack.
+
+Python Libraries
+
+Pandas → data cleaning
+
+Matplotlib / Seaborn → visualization
+
+NumPy
+
+SQL
+
+MySQL / PostgreSQL for querying
+
+Optional (Best for Portfolio)
+
+Power BI / Tableau Dashboard
+
+
+
+Data Cleaning Tasks
+
+You should perform:
+
+Convert epoch date → readable date
+
+Handle missing inventory values
+
+Convert shipping time to numeric days
+
+Remove duplicates
+
+Standardize retailer names
